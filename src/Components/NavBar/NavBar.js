@@ -35,7 +35,7 @@ render() {
           navbar
         >
           <MDBNavbarNav
-            left
+            right
             className="mainNavBarNav"
           >
             <MDBNavItem active>
@@ -48,9 +48,6 @@ render() {
               <MDBNavLink to="#!">¿Qué hacemos?</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">¿En donde trabajamos?</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
               <MDBNavLink to="#!">Súmate</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
@@ -58,14 +55,6 @@ render() {
             </MDBNavItem>
           </MDBNavbarNav>
 
-          <MDBNavbarNav right >
-            <MDBNavItem>
-              <MDBNavLink to="#!">Soy Voluntario</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink to="#!">Soy Donante</MDBNavLink>
-            </MDBNavItem>
-          </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
     </Router>

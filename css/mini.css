@@ -1,6 +1,32 @@
-body {
-    color: green
-  }
-  .myclass{
-      background: greenyellow;
-  }
+.step-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+
+.button-step {
+  display: flex;
+  justify-content: center;
+  background: red;
+}
+
+.img-button-step {
+  width: 75px;
+  height: 75px;
+}
+
+.img-info-step {
+  width: 250px;
+  height: auto;
+}
+
+.endButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .steps {
+  background-image: url(../images/beca/linea.png);
+} */

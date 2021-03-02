@@ -18,6 +18,9 @@ function writeBar() {
           <a href="https://www.instagram.com/cerrosdecambio/"
             ><span class="fa fa-instagram"></span
           ></a>
+          <a href="https://wa.me/573104334379?text=Hola!%20Quiero%20saber%20m%C3%A1s%20de%20Cerros%20de%20Cambio%20%E2%9B%B0%EF%B8%8F%E2%99%A5%EF%B8%8F%F0%9F%A4%97"
+            ><span class="fa fa-whatsapp"></span
+          ></a>
         </div>
       </div>
     </div>

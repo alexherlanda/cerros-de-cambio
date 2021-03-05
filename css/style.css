@@ -1535,7 +1535,7 @@ element css
   content: "";
   height: 3px;
   width: 50px;
-  background: #da19263b;
+  /* background: #da19263b; */
   bottom: 13px;
   margin-left: -67px;
 }
@@ -1544,7 +1544,7 @@ element css
   content: "";
   height: 3px;
   width: 50px;
-  background: #da19263b;
+  /* background: #da19263b; */
   bottom: 13px;
   margin-left: 5px;
 }

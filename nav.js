@@ -113,7 +113,7 @@ function writeBar() {
      
       <div class="logo float-left">
         <a href="index.html" class="img-responsive"
-          ><img src="images/logo.png" alt="" title=""
+          ><img src="images/logo2.png" width="170" height="54.25" alt="" title=""
         /></a>
       </div>
 

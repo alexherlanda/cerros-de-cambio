@@ -32,9 +32,9 @@ function writeBar() {
       <div class="clearfix">
         <div class="float-left">
           <div class="main-logo">
-            <a class="navbar-brand pr-50" href="index.html"
-              ><img src="images/logo2.png" alt="" title=""
-            /></a>
+            <a class="navbar-brand pr-25" href="index.html">
+              <img src="images/logo2.png" width="170" height="54.25" alt="" title=""/>
+              </a>
           </div>
         </div>
       </div>

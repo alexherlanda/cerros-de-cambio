@@ -33,7 +33,7 @@ function writeBar() {
         <div class="float-left">
           <div class="main-logo">
             <a class="navbar-brand pr-25" href="index.html">
-              <img src="images/logo2.png" width="170" height="54.25" alt="" title=""/>
+              <img src="images/logo16.png" width="170" height="54.25" alt="" title=""/>
               </a>
           </div>
         </div>
@@ -113,7 +113,7 @@ function writeBar() {
      
       <div class="logo float-left">
         <a href="index.html" class="img-responsive"
-          ><img src="images/logo2.png" width="170" height="54.25" alt="" title=""
+          ><img src="images/logo16.png" width="170" height="54.25" alt="" title=""
         /></a>
       </div>
 

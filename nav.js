@@ -18,25 +18,29 @@ function writeBar() {
           <a href="https://www.instagram.com/cerrosdecambio/"
             ><span class="fa fa-instagram"></span
           ></a>
+          <a href="http://wa.me/573028610002"
+            ><span class="fa fa-whatsapp"></span
+          ></a>
         </div>
       </div>
     </div>
   </div>
 
 
-  <div class="header-info">
-    <div class="container">
-      <div class="clearfix">
-        <div class="float-left">
-          <div class="main-logo">
-            <a class="navbar-brand pr-50" href="index.html"
-              ><img src="images/logo.png" alt="" title=""
-            /></a>
-          </div>
+<div class="header-info">
+  <div class="container">
+    <div class="clearfix">
+      <div class="float-left">
+        <div class="main-logo">
+          <a class="navbar-brand" href="index.html" style="padding: 0; line-height: inherit; height: inherit;">
+            <img src="images/logo.png" alt="" title="" style="width: 200px; height: auto; transition: none;" />
+          </a>
         </div>
       </div>
     </div>
   </div>
+</div>
+
 
  
   <div class="header-upper black-bg-3 dark">
@@ -61,20 +65,19 @@ function writeBar() {
 
             <div class="navbar-collapse collapse clearfix">
               <ul class="navigation clearfix">
-                <li><a href="#">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li class="dropdown">
                   <a href="#">Conócenos</a>
                   <ul>
-                    <li><a href="#">¿Qué hacemos?</a></li>
+                    <li><a href="quehacemos.html">¿Qué hacemos?</a></li>
                     <li><a href="team.html">Nuestro Equipo</a></li>
-                    <li><a href="#">Testimonios</a></li>
                     <li><a href="faq.html">FAQ's</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
                   <a href="#">Participa</a>
                   <ul>
-                    <li><a href="#">Voluntariado</a></li>
+                    <li><a href="sumate.html">¡Súmate!</a></li>
                     <li><a href="#">Eventos</a></li>
                   </ul>
                 </li>
@@ -95,7 +98,7 @@ function writeBar() {
       
           <div class="outer-box float-right">
             <div class="link-btn">
-              <a href="#" class="theme-btn btn-style-one">Súmate</a>
+              <a href="sumate.html" class="theme-btn btn-style-one">Súmate</a>
             </div>
           </div>
         </div>
@@ -120,20 +123,19 @@ function writeBar() {
         <nav class="main-menu navbar-expand-lg">
           <div class="navbar-collapse collapse clearfix">
             <ul class="navigation clearfix">
-              <li><a href="#">Inicio</a></li>
+              <li><a href="index.html">Inicio</a></li>
               <li class="dropdown">
                 <a href="#">Conócenos</a>
                 <ul>
-                  <li><a href="#">¿Qué hacemos?</a></li>
+                  <li><a href="quehacemos.html">¿Qué hacemos?</a></li>
                   <li><a href="team.html">Nuestro Equipo</a></li>
-                  <li><a href="#">Testimonios</a></li>
                   <li><a href="faq.html">FAQ's</a></li>
                 </ul>
               </li>
               <li class="dropdown">
                 <a href="#">Participa</a>
                 <ul>
-                  <li><a href="#">Voluntariado</a></li>
+                  <li><a href="sumate.html">¡Súmate!</a></li>
                   <li><a href="#">Eventos</a></li>
                 </ul>
               </li>
@@ -157,8 +159,12 @@ function writeBar() {
 
 </header>
 
+  
 `);
   console.log("La barra de navergacion fue generada correctamente");
 }
 
+
 writeBar();
+
+

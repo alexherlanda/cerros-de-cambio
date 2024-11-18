@@ -3864,6 +3864,14 @@ element css
   padding: 0;
 }
 
+
+.sticky-header .logo img {
+  width: 200px; /* Tamaño fijo del logo en el sticky header */
+  height: auto;
+  transition: none;
+}
+
+
 .header-contact-info ul {
 }
 
@@ -8695,7 +8703,7 @@ element css
 
 .main-footer .footer-logo img {
   display: block;
-  max-width: 100%;
+  max-width: 85%;
 }
 
 .main-footer .footer-column .widget-title {
@@ -8906,3 +8914,32 @@ element css
 .main-footer .footer-bottom p a:hover {
   text-decoration: underline;
 }
+
+.icon-list li img {
+  margin-right: 10px;
+  width: 10px; /* Ajusta el tamaño del icono */
+  height: 10px; /* Ajusta el tamaño del icono */ }
+
+.section {
+  margin-top: 40px; /* Cambia el valor a tu preferencia */
+}
+
+.btn-voluntario {
+  background-color: #80b92d; /* Fondo verde */
+  color: white; /* Color del texto blanco */
+  padding: 10px 20px;
+  border: 2px solid #80b92d; /* Borde verde */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Transición suave para el efecto */
+}
+
+.btn-voluntario:hover {
+  background-color: white; /* Camb
+  ia el fondo a blanco al pasar el cursor */
+  color: #80b92d; /* Cambia el color del texto a verde al pasar el cursor */
+  transform: scale(1.1); /* Aumenta el tamaño al 110% */
+}
+
+

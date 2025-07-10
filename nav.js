@@ -81,15 +81,6 @@ function writeBar() {
                     <li><a href="#">Eventos</a></li>
                   </ul>
                 </li>
-                <li class="dropdown">
-                  <a href="#">Proyectos</a>
-                  <ul>
-                    <li><a href="#">Proyecto A</a></li>
-                    <li><a href="#">Proyecto B</a></li>
-                    <li><a href="#">Proyecto C</a></li>
-                    <li><a href="#">Transparencia</a></li>
-                  </ul>
-                </li>
                 <li><a href="contact.html">Contáctanos</a></li>
               </ul>
             </div>
@@ -139,15 +130,6 @@ function writeBar() {
                   <li><a href="#">Eventos</a></li>
                 </ul>
               </li>
-              <li class="dropdown">
-                <a href="#">Proyectos</a>
-                <ul>
-                  <li><a href="#">Proyecto A</a></li>
-                  <li><a href="#">Proyecto B</a></li>
-                  <li><a href="#">Proyecto C</a></li>
-                  <li><a href="#">Transparencia</a></li>
-                </ul>
-              </li>
               <li><a href="#">Contáctanos</a></li>
             </ul>
           </div>
@@ -164,7 +146,4 @@ function writeBar() {
   console.log("La barra de navergacion fue generada correctamente");
 }
 
-
 writeBar();
-
-

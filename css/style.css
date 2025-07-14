@@ -24,6 +24,7 @@
 21. Causes Section
 22. Main Features Section
 23. Main Footer
+24. Volunteer Section
 
 
 **********************************************/
@@ -79,7 +80,7 @@ body {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: #da1926;
+  color: #1a4890;
 }
 
 .no-padding {
@@ -95,9 +96,37 @@ a:visited {
   outline: none;
 }
 
-h1,
-h2,
-h3,
+h1{
+  text-align: justify;
+  position: relative;
+  font-weight: normal;
+  margin: 0px;
+  background: none;
+  line-height: 1.6em;
+  font-family: "Montserrat", sans-serif;
+  color: #00a4ff;
+}
+h2{
+  text-align: justify;
+  position: relative;
+  font-weight: normal;
+  margin: 0px;
+  background: none;
+  line-height: 1.6em;
+  font-family: "Montserrat", sans-serif;
+  color: #80b92d;
+}
+h3{
+
+  position: relative;
+  font-weight: normal;
+  margin: 0px;
+  background: none;
+  line-height: 1.6em;
+  font-family: "Montserrat", sans-serif;
+  color: #f4bc33;
+}
+
 h4,
 h5,
 h6 {
@@ -239,7 +268,7 @@ li {
 }
 
 .black-bg-3 {
-  background-color: #1f5b73 !important;
+  background-color: #1A4890 !important;
 }
 
 .theme-bg {
@@ -1464,7 +1493,7 @@ element css
 
 .sec-title h1 span {
   font-size: 42px;
-  color: green;
+  color: #00a4ff;
   font-weight: 700;
   line-height: 1.1em;
   text-transform: capitalize;
@@ -1480,7 +1509,7 @@ element css
 }
 .title h1 span {
   font-size: 42px;
-  color: #67cb2a;
+  color: #99d839 ;
   font-weight: 700;
   line-height: 1.1em;
   text-transform: capitalize;
@@ -1512,7 +1541,7 @@ element css
 }
 .section-title.three h1 span {
   font-size: 42px;
-  color: green;
+  color: #80b92d;
   font-weight: 700;
   line-height: 1.1em;
   text-transform: capitalize;
@@ -1526,7 +1555,7 @@ element css
 }
 .sec-title span:before {
   margin: 0;
-  color: green;
+  color: #80b92d;
   font-size: 22px;
   font-weight: 500;
 }
@@ -3790,7 +3819,7 @@ element css
 }
 
 .header-top.grey {
-  background: #1f5b73;
+  background: #1A4890;
 }
 
 .header-top a {
@@ -3896,7 +3925,7 @@ element css
   top: 3px;
   width: 40px;
   height: 40px;
-  background: green;
+  background: #80b92d;
   border-radius: 50%;
   text-align: center;
   line-height: 40px;
@@ -4004,7 +4033,7 @@ element css
   -webkit-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
-  border-bottom: 1px solid green;
+  border-bottom: 1px solid #80b92d;
 }
 
 .main-header .header-upper .logo img {
@@ -4083,7 +4112,7 @@ element css
 }
 
 .main-menu .navigation > li.current > a {
-  color: green !important;
+  color: #80b92d !important;
 }
 
 .header-upper.dark .main-menu .navigation > li > a {
@@ -4113,7 +4142,7 @@ element css
 }
 
 .main-menu .navigation > li.current:before {
-  color: green !important;
+  color: #80b92d !important;
 }
 
 .main-header .sticky-header .main-menu .navigation > li > a {
@@ -4130,14 +4159,14 @@ element css
 .main-menu .navigation > li:hover > a,
 .main-menu .navigation > li.current > a,
 .main-menu .navigation > li.current-menu-item > a {
-  color: green;
+  color: #80b92d;
   opacity: 1;
 }
 
 .main-header .sticky-header .main-menu .navigation > li:hover > a,
 .main-header .sticky-header .main-menu .navigation > li.current > a,
 .main-header .sticky-header .main-menu .navigation > li.current-menu-item > a {
-  color: green;
+  color: #80b92d;
 }
 
 .main-menu .navigation > li:hover > a:after {
@@ -4220,7 +4249,7 @@ element css
 
 .main-menu .navigation > li > ul > li > a:hover {
   color: #fff;
-  background: green;
+  background: #80b92d;
 }
 
 .main-menu .navigation > li > ul > li ul {
@@ -5983,7 +6012,7 @@ element css
   content: "";
   top: 0;
   bottom: 0;
-  background: #1f5b73;
+  background: #1A4890;
   width: 100%;
   height: 100%;
 }
@@ -6099,24 +6128,24 @@ element css
 .testimonial-block-three .pic img {
   width: 100%;
 }
-.testimonial-block-three .title {
+.testimonial-block-three .title { /*Nombre voluntario Testimonio*/
   display: block;
   margin: 0 0 7px 0;
   font-size: 20px;
   font-weight: 600;
-  color: #000000;
+  color: #80b92d;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-.testimonial-block-three .post {
+.testimonial-block-three .post { /*País*/
   display: block;
   font-size: 15px;
   font-weight: 600;
-  color: #da1926;
+  color: #f4bc33;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
-.testimonial-block-three .text {
+.testimonial-block-three .text { /*Testimonio*/
   font-size: 16px;
   color: #1d1c1c;
   line-height: 30px;
@@ -6247,7 +6276,7 @@ element css
 
 /* team block one */
 .our-team {
-  padding: 100px 0px 70px;
+  padding: 100px 0px 50px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6311,7 +6340,7 @@ element css
 
 .team-block-one .inner-box .overlay-box .social-links li a {
   position: relative;
-  background: green;
+  background: #80b92d;
   color: #fff;
   display: inline-block;
   width: 50px;
@@ -6367,7 +6396,7 @@ element css
 }
 
 .team-block-one .inner-box .lower-box h4 a {
-  color: #222;
+  color: #f4bc33;
   -webkit-transition: 0.5s ease;
   -o-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -6377,10 +6406,11 @@ element css
 }
 
 .team-block-one .inner-box .lower-box h4 a:hover {
-  color: #da1926;
+  color: #80b92d ;
 }
 
-.team-block-one .inner-box .lower-box .designation {
+.team-block-one .inner-box .lower-box .designation { /*Parte de 'Voluntario'*/
+  
   position: relative;
   color: #9fa2a6;
   font-size: 16px;
@@ -7607,6 +7637,7 @@ element css
   position: relative;
   display: table-cell;
   vertical-align: bottom;
+  
 }
 
 .project-block-one .inner-box .overlay-box h2 {
@@ -8097,7 +8128,7 @@ element css
 }
 
 .page-title .bread-crumb li a {
-  color: green;
+  color: #80b92d;
   transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -8251,7 +8282,7 @@ element css
   position: relative;
   font-family: "PT Serif", serif;
   font-style: italic;
-  color: green;
+  color: #80b92d;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -8259,7 +8290,7 @@ element css
 
 .default-event-box .post-meta .location {
   color: white;
-  background: green;
+  background: #80b92d;
   padding: 4px 15px;
 }
 
@@ -8679,7 +8710,7 @@ element css
 
 .main-footer {
   position: relative;
-  background: #1f5b73;
+  background: #1A4890;
 }
 
 .main-footer .widgets-section {
@@ -8736,7 +8767,7 @@ element css
   margin-right: 25px;
   padding-left: 58px;
   position: relative;
-  color: #848484;
+  color: white;
 }
 
 .main-footer .about-widget .loc ul li:last-child {
@@ -8940,6 +8971,76 @@ element css
   ia el fondo a blanco al pasar el cursor */
   color: #80b92d; /* Cambia el color del texto a verde al pasar el cursor */
   transform: scale(1.1); /* Aumenta el tamaño al 110% */
+}
+
+/* ===================================
+   24. Volunteer Section
+====================================== */
+.voluntariado {
+  padding-top: 0%;
+  padding: 5px 30px;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+}
+
+.voluntariado h2 {
+  padding-top: 0px; /* o menos */
+  font-size: 2.5em;
+  color: #00a4ff;
+  margin-bottom: 20px;
+}
+
+.voluntariado h3 {
+  font-size: 1.8em;
+  color: #80b92d;
+  margin: 30px 0 15px;
+}
+
+.voluntariado p, .voluntariado ul {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.voluntariado ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.voluntariado ul li {
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.voluntariado ul li strong {
+  color: #f4bc33;
+}
+
+.section-btncentrada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.btn-voluntario {
+  background-color: #8DC63F;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.motivacion {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #004d40;
+  margin: 40px 0;
 }
 
 

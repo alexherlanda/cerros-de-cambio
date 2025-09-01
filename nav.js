@@ -6,20 +6,21 @@ function writeBar() {
        
   <div class="header-top grey">
     <div class="container clearfix">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      
       <div class="top-right pull-right">
         <div class="social-links clearfix">
-          <a href="https://www.facebook.com/IbsaSocial/"
-            ><span class="fa fa-facebook-f"></span
+          <a href="https://www.facebook.com/CerrosdeCambio"
+            ><span class="fab fa-facebook-f"></span
           ></a>
           <a href="https://www.linkedin.com/company/cerros-de-cambio/"
-            ><span class="fa fa-linkedin"></span
+            ><span class="fab fa-linkedin"></span
           ></a>
           <a href="https://www.instagram.com/cerrosdecambio/"
-            ><span class="fa fa-instagram"></span
+            ><span class="fab fa-instagram"></span
           ></a>
           <a href="http://wa.me/573028610002"
-            ><span class="fa fa-whatsapp"></span
+            ><span class="fab fa-whatsapp"></span
           ></a>
         </div>
       </div>
@@ -72,16 +73,26 @@ function writeBar() {
                     <li><a href="quehacemos.html">¿Qué hacemos?</a></li>
                     <li><a href="team.html">Nuestro Equipo</a></li>
                     <li><a href="faq.html">FAQ's</a></li>
+                    <li><a href="politicas.html">Políticas</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
                   <a href="#">Participa</a>
                   <ul>
                     <li><a href="sumate.html">¡Súmate!</a></li>
-                    <li><a href="#">Eventos</a></li>
                   </ul>
                 </li>
-                <li><a href="contact.html">Contáctanos</a></li>
+
+
+                <li class="dropdown">
+                  <a href="socialhero.html">Social Hero</a>
+                  <ul>
+                    <li><a href="sh-brandon.html">Social Hero: Brandon</a></li>
+                    <li><a href="sh-jessica.html">Social Hero: Jessica</a></li>
+                    <li><a href="sh-maicol.html">Social Hero: Maicol</a></li>
+                    <li><a href="sh-natalia.html">Social Hero: Natalia</a></li>
+                  </ul>
+                </li>
               </ul>
             </div>
           </nav>
@@ -121,16 +132,26 @@ function writeBar() {
                   <li><a href="quehacemos.html">¿Qué hacemos?</a></li>
                   <li><a href="team.html">Nuestro Equipo</a></li>
                   <li><a href="faq.html">FAQ's</a></li>
+                  <li><a href="politicas.html">Políticas</a></li>
                 </ul>
               </li>
               <li class="dropdown">
                 <a href="#">Participa</a>
                 <ul>
                   <li><a href="sumate.html">¡Súmate!</a></li>
-                  <li><a href="#">Eventos</a></li>
                 </ul>
               </li>
-              <li><a href="#">Contáctanos</a></li>
+
+
+              <li class="dropdown">
+                  <a href="socialhero.html">Social Hero</a>
+                  <ul>
+                    <li><a href="sh-brandon.html">Social Hero: Brandon</a></li>
+                    <li><a href="sh-jessica.html">Social Hero: Jessica</a></li>
+                    <li><a href="sh-maicol.html">Social Hero: Maicol</a></li>
+                    <li><a href="sh-natalia.html">Social Hero: Natalia</a></li>
+                  </ul>
+                </li>
             </ul>
           </div>
         </nav>
